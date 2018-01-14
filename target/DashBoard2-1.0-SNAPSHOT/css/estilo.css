@@ -8,57 +8,28 @@ and open the template in the editor.
     Author     : Diego
 */
 html,body{
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
     background: #2B313B;
 }
 
+.centered{
+    margin: 0 auto;
+}
+
 .width100{
-    width: 100%;
+    width: 100% !important;
 }
 
-
-/*BARRA SUPERIOR*/
-.menu-superior{
-    background: #F19911;
-    height: 50px;
-    width: 100%;
-    padding: 12px;
-}
-
-.menu-superior > *{
-    display: inline-block;
-    position: relative;
-}
-
-.btn-hamburguer{
-    cursor: pointer;
-    font-size: 30px;
-}
-
-.btn-buscar{
-    cursor: pointer;
-    font-size: 28px;
-}
-/*FIM BARRA SUPERIOR*/
-
-/*CONTAINER CORPO*/
-.container-corpo{
-    height: calc(100% - 50px);
-}
-
-.height-chart{
+.height100{
     height: 100% !important;
 }
 
-.container-corpo > div{
-    padding: 0px !important;
+.valign-cont{
+    display: table !important;
 }
-/*FIM CONTAAINER CORPO*/
 
-@media  screen and (min-width: 767){
-    .height-chart{
-        height: 50% !important;
-    }
-
+.valign-item{
+    display: table-cell !important;
+    vertical-align: middle !important;
 }
