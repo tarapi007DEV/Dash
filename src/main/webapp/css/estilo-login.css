@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 13, 2018, 6:45:32 PM
+    Author     : Diego
+*/
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #2B313B;
+}
+
+.width100{
+    width: 100%;
+}
+
+
+/*BARRA SUPERIOR*/
+.menu-superior{
+    background: #F19911;
+    height: 50px;
+    width: 100%;
+    padding: 12px;
+}
+
+.menu-superior > *{
+    display: inline-block;
+    position: relative;
+}
+
+.btn-hamburguer{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.btn-buscar{
+    cursor: pointer;
+    font-size: 28px;
+}
+/*FIM BARRA SUPERIOR*/
+
+/*CONTAINER CORPO*/
+.container-corpo{
+    height: calc(100% - 50px);
+}
+
+.height-chart{
+    height: 100% !important;
+}
+
+.container-corpo > div{
+    padding: 0px !important;
+}
+/*FIM CONTAAINER CORPO*/
+
+@media  screen and (min-width: 767){
+    .height-chart{
+        height: 50% !important;
+    }
+
+}
